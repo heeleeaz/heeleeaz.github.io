@@ -1,0 +1,28 @@
+<section class="resume">
+    <div class="section-title top_30"><span></span><h2>Resume</h2></div>
+    <div class="row">
+            <!-- Working History -->
+            <div class="working-history col-md-12 padding_15 padbot_30">
+                <ul class="timeline col-md-12 top_30">
+                    <li><i class="fa fa-suitcase" aria-hidden="true"></i><h2 class="timeline-title">Working History</h2></li>
+                    <!-- work -->
+                </ul> 
+            </div>  
+    </div>
+
+</section>
+
+<script>
+    $.getJSON("content/resume/index.json").done(function (data){
+        $.each(data, function(i, item) {
+            let title = item.title + ' <a href="' + item.url + '" target="_blank">@' + item.company + '</a>';
+            var work = '<li><h3 class="line-title">' + title + '</h3><span>'+ item.range + '</span>';
+
+            $.each(item.jobDescription, function(j, desc) {
+                work += '<p class="timeline-infolist">'+ desc + '</p>';
+            });
+
+            $(".working-history > ul").append(work);
+        });
+    });
+</script>

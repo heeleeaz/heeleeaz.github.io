@@ -1,0 +1,33 @@
+<!-- ========================= Contact Page ============================== --> 
+<div id="contact">
+    <div class="row">
+        <!-- Contact Form -->
+        <section class="contact-form  padding_30 padbot_45 col-md-12">
+            <div class="section-title top_15 bottom_30"><span></span><h2>Ask me anything</h2></div>
+            <form class="site-form" action="https://formspree.io/heeleeaz@gmail.com" method="POST">
+                <div class="col-md-12">
+                    <input class="site-input" placeholder="Name" name="name">
+                </div>
+
+                <div class="col-md-12 top_15">
+                    <input class="site-input" placeholder="Email Address" name="email">
+                </div>
+                    
+                <div class="col-md-12 top_15">
+                    <textarea class="site-area" placeholder="Message" name="message"></textarea>
+                </div>
+                    
+                <div class="col-md-12 top_15 bottom_30">
+                    <input type="submit" value="EMAIL ME" class="site-btn">
+                </div>
+            </form>  
+        </section>
+    </div>
+</div>
+
+<script>
+    $.getJSON("content/profile/index.json").done(function (data){
+        $(".toemail").append(data.name);
+    });
+</script>
+

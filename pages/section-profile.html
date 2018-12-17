@@ -1,0 +1,33 @@
+<div class="profile">
+    <div class="profile-name">
+        <span class="name"></span><br>
+        <span class="job"></span>
+    </div>
+    <figure class="profile-image">
+        <img id="pi-image" alt="Profile Image, Software Developer">
+    </figure> 
+    <ul class="profile-information">
+        <li></li>
+        <li><p><span id="pi-name">Name: </span></p></li>
+        <li><p><span id="pi-email">Email: </span> </p></li>
+        <li><p><span id="pi-location">Location: </span></p></li>
+    </ul>
+    <div class="col-md-12">
+        <button class="site-btn icon" id="open-resume">Resume <i class="fa fa-download" aria-hidden="true"></i></button>
+    </div>
+</div>
+
+<script>
+    $.getJSON("content/profile/index.json").done(function (data){
+        $(".name").text(data.name);
+        $(".job").text(data.job);
+        $("#pi-image").attr("src", "content/profile/" + data.avatar);
+        $("#pi-name").append(data.name);
+        $("#pi-email").append(data.email);
+        $("#pi-location").append(data.location);
+
+        $("#open-resume").click(function(){
+            window.open('content/profile/resume.pdf', '_blank');
+        });
+    });
+</script>

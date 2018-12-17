@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en_US">
+<head>
+
+<title>Elias Igbalajobi | Software Engineer</title>
+<meta charset="UTF-8">
+<meta name="description" content="Web and Mobile Software engineer based in Lagos, NG who specializes in developing exceptional, high-quality websites and applications.">
+<meta name="keywords" content="Elias Igbalajobi, Elias, Igbalajobi, heeleeaz, software engineer, mobile engineer, web developer, android software engineer, ios software, ios software developer, android software engineer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- ======================== Favicon========================= -->  
+<link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+<link rel="manifest" href="images/icon/manifest.json">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="images/icon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffc500">
+
+<!-- ======================== CSS ============================ -->
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css"/>
+<link rel="stylesheet" href="css/owl.theme.css"/> 
+<link rel="stylesheet" href="css/owl.carousel.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/colors/yellow.css" id="color"/>
+
+
+
+    
+<!-- =============== Google Web fonts ========================== --> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Roboto+Mono" rel="stylesheet">
+
+<!-- =============== Font Icons ================================ --> 
+<link rel="stylesheet" href="icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="icon-fonts/web-design/flaticon.css" />
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+</head>
+<body>
+
+ <!-- Preloading -->
+<div id="preloader">
+    <div class="spinner">
+    </div>
+</div>  
+    
+<!-- Wrapper --> 
+<div class="wrapper top_60 container">
+<div class="row">
+        
+<!-- ===================== Profile Section ====================== --> 
+<div class="col-lg-3 col-md-4" id="section-profile"></div>
+
+<!-- Page Tab Container Div -->   
+<div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
+    
+<!-- ===================== Header =============================== --> 
+<div class="row">
+    <header class="col-md-12" id="section-header"></header>
+        
+    <!-- ==================== Page Content ====================== --> 
+    <div class="col-md-12">
+        <div id="content" class="panel-container">
+          
+            <!-- ================= Home Page ==================== -->  
+            <div id="about">
+                <!-- Text Section -->
+                <div class="row" id="section-aboutme"></div>
+            </div>
+                
+            
+            <!-- ================= Resume Page ================== --> 
+            <div class="row" id="section-resume"></div>
+            
+            <!-- ================= Portfolio Page =============== --> 
+            <div id="section-portfolio" class="row"></div>
+
+            <!-- ================ Contact Page ================== --> 
+            <div class="row" id="section-contact"></div>
+        </div><!-- Content - End -->
+     </div> <!-- col-md-12 end -->
+</div><!-- row end -->
+
+<!-- ======================== Footer ============================ --> 
+<footer id="section-footer"></footer>
+    
+</div> <!-- Tab Container - End -->
+</div> <!-- Row - End --> 
+</div> <!-- Wrapper - End -->   
+
+<!-- ==================== Javascripts =========================== -->  
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.easytabs.min.js"></script>
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/main.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#section-profile').load('pages/section-profile.html');
+        $('#section-header').load('pages/section-header.html');
+        $('#section-aboutme').load('pages/section-aboutme.html');
+        $('#section-resume').load('pages/section-resume.html');
+        $('#section-portfolio').load('pages/portfolio/section-portfolio.html');
+        $('#section-contact').load('pages/section-contact.html');
+        $('#section-footer').load('pages/section-footer.html');
+    });
+</script>
+
+</body>
+</html>

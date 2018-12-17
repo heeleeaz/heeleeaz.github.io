@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<body>
+		<div class="col-md-8 col-md-offset-2 portfolio-content text-center">
+			<h1 class="portfolio-title"></h1>
+
+			<div class="top_45 bottom_45">
+				<a href="" class="cbp-lightbox">
+					<img class="portfolio-image" src="" alt="">
+				</a>
+			</div>
+
+			<div class="section-title bottom_30"><span></span><h2>About Project</h2></div>
+			<p class="portfolio-description"></p>
+			<div class="top_15">
+				<ul class="list-inline portfolio-tech-list"></ul>
+			</div>
+			<br>
+			<p class="portfolio-client"><span>Client:</span> </p>
+			<br>
+			<button class="site-btn top_15 bottom_30">Launch Project.</button>
+			<div class="social-share col-md-12 bottom_60 top_15">
+				<ul>
+					<li><a><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+</body>
+</html>
+
+<script>
+var project = getUrlParameter('project');	
+	$.getJSON("content/portfolio/index.json").done(function (data){
+		data = data[project];
+		$(".portfolio-title").text(data.title);
+		$(".portfolio-image").attr("src", "content/portfolio/" + data.cover);
+		$(".portfolio-description").text(data.description);
+		$(".portfolio-client").append(data.client);        
+		$(".social-share ul li a").attr("href", data.githubUrl); 
+		$(".site-btn").click(function(){
+			window.open(data.external, '_blank')
+		});
+
+		$.each(data.tech, function(i, tech) {
+			$(".portfolio-tech-list").append('<li class="list-inline-item">'+ tech + '</li>');
+        });
+    });
+</script>
+

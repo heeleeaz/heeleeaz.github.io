@@ -1,0 +1,15 @@
+<section class="about-me line col-md-12 padding_30 padbot_45">
+    <div class="section-title"><span></span><h2>About Me</h2></div>
+    <p class="top_15" id="ab-aboutme"></p>
+    <ul class="skill-list" id="ab-skills"></ul>
+</section>
+
+<script>
+$.getJSON("content/about/index.json").done(function (data){
+    $("#ab-aboutme").html(data.description);
+
+    $.each(data.skills, function(i, item) {
+        $("#ab-skills").append("<li>" + item + "</li>");
+    });
+});
+</script>

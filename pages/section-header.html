@@ -1,0 +1,31 @@
+<nav>
+    <div class="row">
+        <!-- navigation bar -->
+        <div class="col-md-8 col-sm-8 col-xs-4">
+            <ul class="tabs">
+                <li class="tab">
+                    <a class="home-btn" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+                </li>
+                <li class="tab"><a href="#">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+            <a href="#contact" class="pull-right site-btn icon hidden-xs">Get In Touch<i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <div class="hidden-md social-icons pull-right"> 
+                <a class="gh" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> 
+                <a class="ln" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                <a class="tw" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    $.getJSON("content/profile/index.json").done(function (data){
+        console.log(data.linkedinUrl);
+        $(".gh").attr("href", data.githubUrl);
+        $(".ln").attr("href", data.linkedinUrl);
+        $(".tw").attr("href", "https://twitter.com/" + data.twitterUsername);
+    });
+</script>

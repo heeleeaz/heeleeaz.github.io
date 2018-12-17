@@ -1,0 +1,119 @@
+
+<div id="portfolio" class="row bottom_45">
+    <section class="col-md-12">
+        <div class="col-md-12 content-header bottom_15">
+            <div class="section-title top_30"><span></span><h2>Portfolio</h2></div>
+        </div>
+        <div id="grid-container" class="top_60">
+            <div class="cbp-item webdesign" id="item0">
+                <a href="" class="cbp-singlePage">
+                    <figure>
+                        <div class="icon">
+                            <i class="fa fa-clone" aria-hidden="true"></i>
+                        </div>
+                        <img src="" alt="">
+                        <figcaption>
+                            <span class="title"></span><br/>
+                            <span class="info"></span>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="cbp-item webdesign" id="item1">
+                <a href="" class="cbp-singlePage">
+                    <figure>
+                        <div class="icon">
+                            <i class="fa fa-clone" aria-hidden="true"></i>
+                        </div>
+                        <img src="" alt="">
+                        <figcaption>
+                            <span class="title"></span><br/>
+                            <span class="info"></span>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="cbp-item webdesign" id="item2">
+                <a href="" class="cbp-singlePage">
+                    <figure>
+                        <div class="icon">
+                            <i class="fa fa-clone" aria-hidden="true"></i>
+                        </div>
+                        <img src="" alt="">
+                        <figcaption>
+                            <span class="title"></span><br/>
+                            <span class="info"></span>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="cbp-item webdesign" id="item3">
+                    <a href="" class="cbp-singlePage">
+                        <figure>
+                            <div class="icon">
+                                <i class="fa fa-clone" aria-hidden="true"></i>
+                            </div>
+                            <img src="" alt="">
+                            <figcaption>
+                                <span class="title"></span><br/>
+                                <span class="info"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+            </div>
+
+            <div class="cbp-item webdesign" id="item4">
+                    <a href="" class="cbp-singlePage">
+                        <figure>
+                            <div class="icon">
+                                <i class="fa fa-clone" aria-hidden="true"></i>
+                            </div>
+                            <img src="" alt="">
+                            <figcaption>
+                                <span class="title"></span><br/>
+                                <span class="info"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+            </div>
+            <div class="cbp-item webdesign" id="item5">
+                <a href="" class="cbp-singlePage">
+                    <figure>
+                        <div class="icon">
+                            <i class="fa fa-clone" aria-hidden="true"></i>
+                        </div>
+                        <img src="" alt="">
+                        <figcaption>
+                            <span class="title"></span><br/>
+                            <span class="info"></span>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>      
+        </div>
+        <!-- load more button -->
+        <div id="js-loadMore-agency" class="cbp-l-loadMore-button top_30">
+            <a href="pages/portfolio/load-more.html" class="cbp-l-loadMore-link site-btn" rel="nofollow">
+                <span class="cbp-l-loadMore-defaultText">Load More <span class="cbp-l-loadMore-loadItems"></span></span>
+                <span class="cbp-l-loadMore-loadingText">Loading...</span>
+                <span class="cbp-l-loadMore-noMoreLoading">No More Works</span>
+            </a>
+        </div>
+    </section>
+</div>
+
+<script>
+    $.getJSON("content/portfolio/index.json").done(function (data){
+        $.each(data, function(i, data) {  
+            const item = "#item"+ i;
+            $(item + " a figure img").attr("src", "content/portfolio/" + data.cover);
+            $(item + " a figure span[class='title']").text(data.title);
+            $(item + " a figure span[class='info']").text(data.description);
+            $(item + " a").attr("href", "portfolio-detail/?project=" + i);
+        });
+    });
+</script>
+
+
+<script src="pages/portfolio/single-page-main.js"></script>
