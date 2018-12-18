@@ -7,19 +7,18 @@ The first iteration of my personal site.
 
 A quick look at the top-level files and directories in this project.
 
-.
-├── config  
-├── content  
-├── .pages  
-├── .icon-fonts  
-├── portfolio-details  
-├── cubeportfolio  
-├── js  
-├── images  
-├── css  
-├── index.html  
+├── config 
+├── content 
+├── .pages 
+├── .icon-fonts 
+├── portfolio-details 
+├── cubeportfolio 
+├── js 
+├── images 
+├── css 
+├── index.html 
 ├── .gitignore  
-└── README.md  
+└── README.md 
 
 1.  **`/config`**: The directory contain an **`index.json`** file where edit to set the site title, url, language and  google analytic id.
 
