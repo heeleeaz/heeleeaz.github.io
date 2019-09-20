@@ -1,37 +1,42 @@
 [
-    {
-        "title": "iOS Engineer",
-        "company": "Oblangata",
-        "location": "Lagos, NG",
-        "range": "July 2018 - Present",
-        "url": "https://oblangata.com/",
-        "jobDescription":[
-            "Developed and shipped native iOS application for offline e-commerce service using SMS API service",
-            "Worked closely with web backend engineer in the development of scalable offline SMS API service",
-            "Write modern, performant, maintainable code for a diverse array of client and internal projects"
-        ]
-    },
-    {
-        "title": "Senior Android Engineer",
-        "company": "CopulaApp",
-        "location": "Lagos, NG",
-        "range": "Feb 2016 - Jun 2018",
-        "url": "http://copulaapp.com/",
-        "jobDescription":[
-            "Responsible for the development of Copula, an offline peer-to-peer media streaming application.",
-            "Responsbile for the development of StoryartApp, an Android image and video editing app, over 20K+ users",
-            "Worked with a variety of different languages, platform, frameworks such as Java, C, JAX-WS, Jersey and FFMpeg."
-        ]
-    },
-    {
-        "title": "Android Engineer",
-        "company": "Terrax",
-        "location": "Abuja, NG",
-        "range": "Jun 2014 - Jun 2015",
-        "url": "",
-        "jobDescription":[
-            "Developed and shipped Veetu E-commerce mobile application",
-            "Tested the Veetu app on various Android devices to ensure full compatibility."
-        ]
-    }
+  {
+    "title": "Android/iOS Engineer",
+    "company": "Opera Solution",
+    "location": "Lagos, NG",
+    "range": "Apr 2019 - Present",
+    "url": "https://operapay.com/",
+    "jobDescription": [
+      "Collaborated with a team of Android and iOS developers in the development of Opera Pay (Opay App).",
+      "Designed and Developed Login/Pay with Opay for third party applications, and OWealth cash investment feature."
+    ]
+  },
+  {
+    "title": "Android/iOS Engineer",
+    "company": "Vela Solution",
+    "location": "Lagos, NG",
+    "range": "Jun 2018 - Apr 2019",
+    "url": "http://copulaapp.com/",
+    "jobDescription": [
+      "Developed native iOS application for offline/online personal banking/financial service using SMS API service.",
+      "Developed an offline banking service iOS and Android SDK for commercial banks in Nigeria.",
+      "Involved in the management, update and improvement of the continuous integration systems.",
+      "Involved in the onboarding of new team members.",
+      "Created documentation for the project code base and third-party library license.",
+      "Worked closely with the project manager, in deciding relevant features, improvement and solutions needed.",
+      "Worked closely with backend engineer in the development of scalable offline SMS API service.",
+      "Communicated with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis."
+    ]
+  },
+  {
+    "title": "Android/iOS Engineer",
+    "company": "AppWork",
+    "location": "Lagos, NG",
+    "range": "Feb 2015 - Jun 2018",
+    "url": "http://copulaapp.com/",
+    "jobDescription": [
+      "Developed Copula, an offline peer-to-peer media streaming application.",
+      "Developed Storyart, an Android image & video editing app, with over 30,000+ users.",
+      "Worked with a variety of different languages, platform, frameworks such as Java, C, JAX-WS, Jersey and FFMpeg."
+    ]
+  }
 ]
