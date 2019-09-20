@@ -16,7 +16,7 @@
     {
         "title": "CopulaApp",
         "cover": "copulaapp.png",
-        "external": "http://copulaapp.com/",
+        "external": "https://play.google.com/store/apps/details?id=com.copula.android",
         "githubUrl": "#",
         "client": "Personal Project",
         "tech":[
@@ -30,7 +30,7 @@
     {
         "title": "StoryartApp",
         "cover": "storyartapp.png",
-        "external": "https://storyartapp.com/",
+        "external": "https://play.google.com/store/apps/details?id=com.copula.storyart",
         "client": "Personal Project",
         "githubUrl": "#",
         "tech":[

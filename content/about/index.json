@@ -1,12 +1,13 @@
 {
     "description" : "I am a software engineer with expertise in mobile and web applications development. I build cutting-edge web and mobile apps ranging from e-commerce, multimedia, and travel booking portals which are intuitive, and also being scalable and efficient behind the scenes.<br/>I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!<br/>I also help in facilitating and mentoring beginner and experienced Android developer with Andela's Google Africa Scholarship.<br/>Here's a few things I'm experienced with:",
     "skills" : [
-        "Programming - Java, C, Swift, Kotlin",
-        "Framework - Android SDK, iOS SDK, JAX-RS, Jersey",
-        "Databases - MySQL, Cassandra, Redis, Memcached",
+        "Programming - Java, Kotlin, Swift, Html/CSS",
+        "Framework - Android SDK, iOS SDK, Spring, Jersey",
+        "Databases - MySQL, MongoDB, Cassandra, Redis, Memcached",
         "Web Servers - Nginx, Apache Tomcat, Glassfish",
         "Operating System - Linux, MacOS",
-        "Platform & Tools - AWS(EC2, S3, SNS/SES, Route53), Docker, Git",
-        "Testing Frameworks - JUnit (JAVA)"
+        "Platform & Tools - AWS(EC2, S3, SNS/SES, Route53), Docker, Git, Jira",
+        "Testing Frameworks - JUnit (JAVA)",
+        "Design Methodology - Agile"
     ]
 }
