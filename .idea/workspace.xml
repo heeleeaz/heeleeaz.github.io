@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ff853c-06da-45e2-82ac-7dadaee14227" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/profile/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/profile/resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/resume/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/resume/index.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/resume/index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="165">
+              <caret line="11" column="102" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -202,18 +201,18 @@
       <workItem from="1568985808066" duration="1771000" />
       <workItem from="1569754064515" duration="315000" />
       <workItem from="1569873957066" duration="128000" />
-      <workItem from="1575452064552" duration="467000" />
+      <workItem from="1575452064552" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2681000" />
+    <option name="totallyTimeSpent" value="2742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,7 +224,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/resume/index.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="11" column="102" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
         </state>
       </provider>
     </entry>
