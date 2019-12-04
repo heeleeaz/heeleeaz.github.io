@@ -1,24 +1,25 @@
 [
   {
-    "title": "Android/iOS Engineer",
+    "title": "Android Engineer",
     "company": "Opera Solution",
     "location": "Lagos, NG",
     "range": "Jan 2019 - Present",
     "url": "https://operapay.com/",
     "jobDescription": [
-      "Collaborated with a team of Android and iOS developers in the development of Opera Pay (Opay App).",
-      "Designed and Developed Login/Pay with Opay for third party applications, and OWealth cash investment feature."
+      "Worked on core functionality and features of the Opera Pay application.",
+      "Developed Opera Pay payment library for third party integration.",
+      "Worked in the development of OCar and ORide, Car and Ride hailing feature of OPay application.",
+      "Worked in the development of OWealth, a saving and investment feature of the OPay application."
     ]
   },
   {
-    "title": "Android/iOS Engineer",
+    "title": "Android Engineer",
     "company": "Vela Solution",
     "location": "Lagos, NG",
     "range": "Jun 2017 - Jan 2019",
     "url": "http://copulaapp.com/",
     "jobDescription": [
-      "Developed native iOS application for offline/online personal banking/financial service using SMS API service.",
-      "Developed an offline banking service iOS and Android SDK for commercial banks in Nigeria.",
+      "Developed personal banking applications for commercial banks in Nigeria",
       "Involved in the management, update and improvement of the continuous integration systems.",
       "Involved in the onboarding of new team members.",
       "Created documentation for the project code base and third-party library license.",
@@ -28,7 +29,7 @@
     ]
   },
   {
-    "title": "Android/iOS Engineer",
+    "title": "Android Engineer",
     "company": "AppWork",
     "location": "Lagos, NG",
     "range": "Feb 2015 - Jun 2017",
@@ -36,7 +37,7 @@
     "jobDescription": [
       "Developed Copula, an offline peer-to-peer media streaming application.",
       "Developed Storyart, an Android image & video editing app, with over 30,000+ users.",
-      "Worked with a variety of different languages, platform, frameworks such as Java, C, JAX-WS, Jersey and FFMpeg."
+      "Worked with a variety of different languages, platforms, frameworks such as Java, C, JAX-WS, Jersey and FFMpeg."
     ]
   }
 ]
