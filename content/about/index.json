@@ -1,13 +1,10 @@
 {
-    "description" : "I am a software engineer with expertise in mobile and web applications development. I build cutting-edge web and mobile apps ranging from e-commerce, multimedia, and travel booking portals which are intuitive, and also being scalable and efficient behind the scenes.<br/>I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!<br/>I also help in facilitating and mentoring beginner and experienced Android developer with Andela's Google Africa Scholarship.<br/>Here's a few things I'm experienced with:",
+    "description" : "Skilled mobile app developer and software engineer with over 9 years of experience. Work experiences include extended project with OperaPay and Osun State Ministry of Justice. Especially good at Java, Swift, Android, iOS and crafting full-stack solutions. Holds a B.Sc in Computer Science with Mathematics from Obafemi Awolowo University.",
     "skills" : [
-        "Programming - Java, Kotlin, Swift, Html/CSS",
-        "Framework - Android SDK, iOS SDK, Spring, Jersey",
-        "Databases - MySQL, MongoDB, Cassandra, Redis, Memcached",
-        "Web Servers - Nginx, Apache Tomcat, Glassfish",
-        "Operating System - Linux, MacOS",
-        "Platform & Tools - AWS(EC2, S3, SNS/SES, Route53), Docker, Git, Jira",
-        "Testing Frameworks - JUnit (JAVA)",
-        "Design Methodology - Agile"
+        "Languages - C, Swift, Java, Kotlin, C#, PHP, SQL, JavaScript, HTML",
+        "Libraries/APIs - OpenGL, NDK, FFmpeg, Core-Data, Realm, OkHTTP, iOS SDK, CocoaPods, JSON API, Facebook SDK, Facebook API. Google Map API",
+        "Paradigms - App Development, Mobile Development, Functional Programming, Concurrent Programming",
+        "Platforms - MacOS, iOS, Android, Linux, Amazon Web Services (AWS)",
+        "Storage - MySQL, Cassandra, Redis, Mamcached, SQLite"
     ]
 }

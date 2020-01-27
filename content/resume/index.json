@@ -1,43 +1,85 @@
 [
   {
-    "title": "Android Engineer",
-    "company": "Opera Solution",
-    "location": "Lagos, NG",
-    "range": "Jan 2019 - Present",
+    "title": "Android/iOS Developer",
+    "company": "Opera Software",
+    "range": "2019 - Present",
     "url": "https://operapay.com/",
     "jobDescription": [
-      "Worked on core functionality and features of the Opera Pay application.",
-      "Developed Opera Pay payment library for third party integration.",
-      "Worked in the development of OCar and ORide, Car and Ride hailing feature of OPay application.",
-      "Worked in the development of OWealth, a saving and investment feature of the OPay application. "
+      "Built an Android library (Pay-with-OPay) for merchants to integrate OperaPay system their application.",
+      "Built OperaWealth(OWealth), an investment feature of the OperaPay application, which gives user 10% of their annual savings.",
+      "Spent time fixing bugs in the Android app, from views to models to handling API calls. All issues were tracked in JIRA.",
+      "Contributed as part of Android team in the development of OperaPay iOS application, worked on handling API calls to views and app deployment."
     ]
   },
   {
-    "title": "Android Engineer",
+    "title": "iOS",
     "company": "Vela Solution",
-    "location": "Lagos, NG",
-    "range": "Jun 2017 - Jan 2019",
-    "url": "http://copulaapp.com/",
+    "range": "2018 - 2019",
+    "url": "#",
     "jobDescription": [
-      "Developed personal banking applications for commercial banks in Nigeria",
-      "Involved in the management, update and improvement of the continuous integration systems.",
-      "Involved in the onboarding of new team members.",
-      "Created documentation for the project code base and third-party library license.",
-      "Worked closely with the project manager, in deciding relevant features, improvement and solutions needed.",
-      "Worked closely with backend engineer in the development of scalable offline SMS API service.",
-      "Communicated with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis."
+      "Built Jaiz Bank iOS customer banking application.",
+      "Built Vela Bank iOS application, application work offline (without internet) using SMS service as a medium of data exchange.",
+      "Built VCS(Vela control system) iOS library which allows third-party application to integrate basic banking services (Transfer and Bill payment) easily to their application.",
+      "Built VCS(Vela control system) react native library interfacing the VCS iOS library for integration with react-native application."
     ]
   },
   {
-    "title": "Android Engineer",
-    "company": "AppWork",
-    "location": "Lagos, NG",
-    "range": "Feb 2015 - Jun 2017",
-    "url": "http://copulaapp.com/",
+    "title": "Android Developer Mentor",
+    "company": "Andela Learning Community (ALC - 3.0)",
+    "range": "2018 - 2018",
+    "url": "#",
     "jobDescription": [
-      "Developed Copula, an offline peer-to-peer media streaming application.",
-      "Developed Storyart, an Android image & video editing app, with over 30,000+ users.",
-      "Worked with a variety of different languages, platforms, frameworks such as Java, C, JAX-WS, Jersey and FFMpeg."
+      "Mentored and trained Android beginner level developers in Android basic.",
+      "nvolved in the selection of qualified ALC students for Udacity Android Nano degree course."
+    ]
+  },
+  {
+    "title": "Contract Android/Web Developer",
+    "company": "Osun State Ministry of Justice",
+    "range": "2018 - 2018",
+    "url": "#",
+    "jobDescription": [
+      "Developed an Android Application for 2018 state election and campaign process reporting.",
+      "Developed a web-backend system using Spring-boot to store and process election process data.",
+      "Developed a web-backend system using Spring-boot to store and process election process data.",
+      "Setup and managed web infrastructure services."
+    ]
+  },
+  {
+    "title": "Contract iOS Developer",
+    "company": "Muve Logistics",
+    "range": "2018 - 2018",
+    "url": "#",
+    "jobDescription": [
+      "Developed (Send-Me) iOS application for package delivery request and monitoring.",
+      "Integrated an in-app purchase library.",
+      "Added iPad layout."
+    ]
+  },
+  {
+    "title": "Android/iOS Developer",
+    "company": "Independent • 2014 - Present",
+    "range": "2018 - 2018",
+    "url": "#",
+    "jobDescription": [
+      "Developed and published an audio/video streaming app (Copula for Android) from scratch. Copula makes it possible for a user to stream songs, videos and view images on nearby users devices without the use of internet.",
+      "Developed a library to determine at real-time, best Constant Rate Factor (CRF) for H.264 encoded videos based on Wifi-Tethering signal strength, which was used in Copula App.",
+      "Handle all of the coding and graphic design for Copula app as well. Sketch mockups are essential.",
+      "Developed and published a video and image editing app(Storyart for Android). Storyart makes extensive use of FFMpeg and OpenGL library for creation, compression and manipulation of videos, and also image manipulation and transformation using various mathematical models respectively.",
+      "Developed Android Emoji Keyboard library which was used in Storyart.",
+      "Integrated with third-party APIs for account logins and enhanced functionality, including Facebook and Google.",
+      "Developed a restful webservice system using Java JAX-RS, for maintaining a database of Storyart users information.",
+      "Storyart has over 50,000 device installs and over 30,000 users. This project gave me first experience in building and maintaining a commercial quality app."
+    ]
+  },
+  {
+    "title": "StoryartApp (Development)",
+    "company": "Terrax Limited",
+    "range": "2013 - 2014",
+    "url": "#",
+    "jobDescription": [
+      "Developed and published a personal banking (Cash transfer and bill payment) application (Veetu for Android)",
+      "Integrated with third-party APIs for account authentication and enhanced functionality, including Facebook and Google."
     ]
   }
 ]

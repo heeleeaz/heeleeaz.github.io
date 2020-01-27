@@ -10,7 +10,7 @@
         <li></li>
         <li><p><span id="pi-name">Name: </span></p></li>
         <li><p><span id="pi-email">Email: </span> </p></li>
-        <li><p><span id="pi-location">Location: </span></p></li>
+        <!--<li><p><span id="pi-location">Location: </span></p></li>-->
     </ul>
     <div class="col-md-12">
         <button class="site-btn icon" id="open-resume">Resume <i class="fa fa-download" aria-hidden="true"></i></button>
@@ -24,7 +24,7 @@
         $("#pi-image").attr("src", "content/profile/" + data.avatar);
         $("#pi-name").append(data.name);
         $("#pi-email").append(data.email);
-        $("#pi-location").append(data.location);
+        // $("#pi-location").append(data.location);
 
         $("#open-resume").click(function(){
             window.open('content/profile/resume.pdf', '_blank');
