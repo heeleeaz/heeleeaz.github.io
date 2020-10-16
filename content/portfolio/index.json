@@ -1,86 +1,91 @@
 [
-    {
-        "title": "Vecta Travels",
-        "cover": "vectatravel.png",
-        "external": "https://www.vectatravels.com/",
-        "client": "Vecta Travels Ltd.",
-        "githubUrl": "#",
-        "tech":[
-            "Scala",
-            "Play Framework",
-            "Java",
-            "Amadeus API"
-        ],
-        "description": "Vecta Travels is a world class provider of traveling experience with concierge services, car hire, hotel accommodation, travel insurance, visa assistance and affordable flight tickets."
-    },
-    {
-        "title": "CopulaApp",
-        "cover": "copulaapp.png",
-        "external": "https://play.google.com/store/apps/details?id=com.copula.android",
-        "githubUrl": "#",
-        "client": "Personal Project",
-        "tech":[
-            "Android",
-            "Java",
-            "C",
-            "JAX-RS, Jersey"
-        ],
-        "description": "An Android application that allows offline streaming and sharing of media on nearby Android devices by peering with them."
-    },
-    {
-        "title": "StoryartApp",
-        "cover": "storyartapp.png",
-        "external": "https://play.google.com/store/apps/details?id=com.copula.storyart",
-        "client": "Personal Project",
-        "githubUrl": "#",
-        "tech":[
-            "Android",
-            "Java",
-            "C",
-            "JAX-RS, Jersey"
-        ],
-        "description": "An Android media editing application, to edit picture, apply filters, text with styling, create movie picture with songs, and more. And easily share as Instagram, WhatsApp or Facebook story. Storyart as over 20K downloads on Playstore."
-    },
-    {
-        "title": "Patelo Travels",
-        "cover": "patelotravels.png",
-        "external": "https://patelotravels.com/",
-        "client": "Patelo Travels Ltd.",
-        "githubUrl": "#",
-        "tech":[
-            "AKKA",
-            "Scala",
-            "Play Framework",
-            "Amadeus"
-        ],
-        "description": "Patelo Travels is a portal providing flight ticket, hotel accomdations, visa assistance and car hiring service."
-    },
-    {
-        "title": "Ochulo Travels",
-        "cover": "ochulotravels.png",
-        "external": "https://ochulotravel.com/",
-        "client": "Ochulo Travels Ltd.",
-        "githubUrl": "#",
-        "tech":[
-            "AKKA",
-            "Scala",
-            "Play Framework",
-            "Amadeus"
-        ],
-        "description": "Ochulo Travels is a portal providing flight ticket, hotel accomdations, visa assistance and car hiring service."
-    },
-    {
-        "title": "AMARS Portal",
-        "cover": "amarsportal.png",
-        "external": "#",
-        "client": "Liberty House",
-        "githubUrl": "#",
-        "tech":[
-            "WEB",
-            "Java",
-            "Android",
-            "JAX-RS, Jersey"
-        ],
-        "description": "Amars Portal is an electoral event monitoring system. It is used in monitoring pre and post electoral event in Osun State, Nigeria."
-    }
+  {
+    "title": "Dodul",
+    "cover": "doduldotio.png",
+    "external": "http://dodul.io",
+    "client": "Personal Project",
+    "githubUrl": "#",
+    "tech": [
+      "macOS",
+      "Cocoa",
+      "Swift",
+      "SwiftUI",
+      "TouchBar API",
+      "Notification Service"
+    ],
+    "description": "macOS Touch bar customization App."
+  },
+  {
+    "title": "StoryartApp",
+    "cover": "storyartapp.png",
+    "external": "https://play.google.com/store/apps/details?id=com.copula.storyart",
+    "client": "Personal Project",
+    "githubUrl": "#",
+    "tech": [
+      "Android API",
+      "FFMpeg",
+      "OpenGL",
+      "OpenCV",
+      "Java, Kotlin",
+      "Java Graphics"
+    ],
+    "description": "Video creator and Image editing app for Android."
+  },
+  {
+    "title": "CopulaApp",
+    "cover": "copulaapp.png",
+    "external": "https://play.google.com/store/apps/details?id=com.copula.android",
+    "githubUrl": "#",
+    "client": "Personal Project",
+    "tech": [
+      "Android API",
+      "WebSocket",
+      "HTTP Progressive Streaming",
+      "FFMpeg",
+      "Android Networking"
+    ],
+    "description": "Pair-to-pair Video streaming app for Android."
+  },
+  {
+    "title": "Patelo Travels",
+    "cover": "patelotravels.png",
+    "external": "https://patelotravels.com/",
+    "client": "Patelo Travels Ltd.",
+    "githubUrl": "#",
+    "tech": [
+      "AKKA",
+      "Scala",
+      "Play Framework",
+      "Amadeus"
+    ],
+    "description": "Patelo Travels is a portal providing flight ticket, hotel accomdations, visa assistance and car hiring service."
+  },
+  {
+    "title": "Ochulo Travels",
+    "cover": "ochulotravels.png",
+    "external": "https://ochulotravel.com/",
+    "client": "Ochulo Travels Ltd.",
+    "githubUrl": "#",
+    "tech": [
+      "AKKA",
+      "Scala",
+      "Play Framework",
+      "Amadeus"
+    ],
+    "description": "Ochulo Travels is a portal providing flight ticket, hotel accomdations, visa assistance and car hiring service."
+  },
+  {
+    "title": "AMARS Portal",
+    "cover": "amarsportal.png",
+    "external": "#",
+    "client": "Liberty House",
+    "githubUrl": "#",
+    "tech": [
+      "WEB",
+      "Java",
+      "Android",
+      "JAX-RS, Jersey"
+    ],
+    "description": "Amars Portal is an electoral event monitoring system. It is used in monitoring pre and post electoral event in Osun State, Nigeria."
+  }
 ]
