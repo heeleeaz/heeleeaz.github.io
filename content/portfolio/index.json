@@ -1,10 +1,23 @@
 [
   {
+    "title": "OrnaMap",
+    "cover": "ornamap.png",
+    "external": "https://ornamap.com",
+    "client": "Founded Project",
+    "githubUrl": "#",
+    "tech": [
+      "iOS",
+      "Android",
+      "Public Transit"
+    ],
+    "description": "Public transit planning and booking solution."
+  },
+  {
     "title": "Dodul",
     "cover": "doduldotio.png",
     "external": "http://dodul.io",
     "client": "Personal Project",
-    "githubUrl": "#",
+    "githubUrl": "https://github.com/heeleeaz/dodul",
     "tech": [
       "macOS",
       "Cocoa",
@@ -25,9 +38,7 @@
       "Android API",
       "FFMpeg",
       "OpenGL",
-      "OpenCV",
-      "Java, Kotlin",
-      "Java Graphics"
+      "Java, Kotlin"
     ],
     "description": "Video creator and Image editing app for Android."
   },
@@ -44,7 +55,7 @@
       "FFMpeg",
       "Android Networking"
     ],
-    "description": "Pair-to-pair Video streaming app for Android."
+    "description": "Pair-to-pair file sharing and media streaming app for Android."
   },
   {
     "title": "Patelo Travels",

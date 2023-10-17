@@ -1,24 +1,51 @@
 [
   {
-    "title": "Android Engineer",
-    "company": "Plume Design, Inc",
-    "range": "April 2020 - Current",
-    "url": "https://plume.com/",
+    "title": "Founder/CEO",
+    "company": "OrnaMap Technologies",
+    "location": "Lagos, NG",
+    "range": "Aug 2023 - Current",
+    "url": "https://ornamap.com",
     "jobDescription": [
-      "Redesigned smart Bluetooth and Wi-Fi service API which improved successful POD pairing by 19%.",
-      "Optimized local data storage system, to include caching and compression, which increased file access speed by 35% and improved app speed significantly.",
-      "Refracted legacy code to clean code, migrated to Hilt from Dagger2 and introduced Ktlint to improve code formatting.",
-      "Implement and refactored existing UI animations which improved UI rendering speed significantly and drive better user experience."
+      "Spearheading the development and execution of OrnaMap - A public transit planning and booking application designed for cities with both informal and semi formal public transit services.",
+      "Spearheaded the integration of public transit partners in Nigeria, including Lagos Metropolitan Area Transport Authority and the Nigerian Railway Corporation.",
+      "Designed and implemented the OrnaMap Android application, iOS application and Backend routing engine.",
+      "Identifying and pursuing new business opportunities, partnerships, and stakeholder and client relationships to drive growth and revenue."
+    ]
+  },
+  {
+    "title": "Associate Software Engineer",
+    "company": "Goldman Sachs",
+    "location": "London, UK",
+    "range": "Nov 2021 - Current",
+    "url": "https://www.goldmansachs.com/",
+    "jobDescription": [
+      "Facilitated an easy cloud management service by implementing the GS Public Cloud Facade service. This service communicates between Goldman Cloud Network and the various Public Cloud providers, including Google Cloud Platform (GCP), Amazon Web Services (AWS) and Oracle Cloud Infrastructure (OCI).",
+      "Identified and resolved 34,000 redundant cloud machines which led to a significant cost savings by designing and implementing the public cloud computing Introspector and Auditor service.",
+      "Designed and maintained services which helps in the efficient management of over 400,000 Public Cloud machines across 34 regions in the continent."
     ]
   },
   {
     "title": "Android Engineer",
-    "company": "Opera Pay",
-    "range": "April 2019 - July 2020",
+    "company": "Plume Design, Inc",
+    "location": "Palo Alto, CA, USA",
+    "range": "Apr 2020 - Oct 2021",
+    "url": "https://www.plume.com/",
+    "jobDescription": [
+      "Redesigned smart Bluetooth and Wi-Fi service API which improved successful POD pairing by 19%. Optimized local data storage system, to include caching and compression, which increased file access speed by 35% and improved app speed significantly.",
+      "Reduced Pod connectivity and onboarding time by implementing the mDNS protocol on the HomePass Android application.",
+      "Implement and refactored existing UI animations which improved UI rendering speed significantly and drove a better user experience.",
+      "Improved code structure, maintainability, and testability by spurring clean code which further improves feature development speed and bug fixing significantly.",
+      "Integrated and managed CI/CD system to handle testing, lint checking and artifact generation."
+    ]
+  },
+  {
+    "title": "Android/iOS Engineer",
+    "company": "OPay",
+    "location": "Lagos, NG",
+    "range": "Apr 2019 - Aug 2020",
     "url": "https://operapay.com/",
     "jobDescription": [
-      "Implement Websocket API which facilitates realtime data exchange with server and in-app chat system between customer and support staff.",
-      "Established a realtime remote application feature configuration and update system by integrating the Firebase remote config.",
+      "Reduced fraudulent agency transactions by 20% by introducing and implementing the OPay Agent Certificate feature for Android.",
       "Increased crash-free users to 98% by identifying and fixing new and existing bugs, and adding unit tests to all existing domain, data and UI Driven source code.",
       "Improved code structure, maintainability, and testability by spurring clean code which further improves feature development speed and bug fixing significantly."
     ]
@@ -26,11 +53,12 @@
   {
     "title": "Android/iOS Engineer",
     "company": "Vela Solution",
-    "range": "June 2017 - April 2019",
-    "url": "https://vela.com.ng",
+    "location": "Lagos, NG",
+    "range": "Dec 2018 - Apr 2019",
+    "url": "https://vela.com.ng/",
     "jobDescription": [
-      "Developed an offline mobile banking Android and iOS application using unstructured supplementary service data (USSD) GSM and SMS protocol for data exchange with the internet server",
-      "Improved message and payment security by implementing end-to-end message encryption system using RSA cryptosystem.",
+      "Developed an offline mobile banking Android and iOS application using unstructured supplementary service data (USSD) GSM and SMS protocol for data exchange with the internet server.",
+      "Improved message and payment security by implementing an end-to-end message encryption system using RSA cryptosystem.",
       "Reduced USSD data exchange size by 34%, by designing a proprietary message compression system which by implication reduced service cost by 8%."
     ]
   }
